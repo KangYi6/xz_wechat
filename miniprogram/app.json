@@ -1,0 +1,46 @@
+{
+  
+  "pages": [
+    "pages/me/me",
+    "pages/index/index",
+    "pages/movie/movie",
+    "pages/citylist/citylist",
+    "pages/theatre/theatre",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#dd403b",
+    "navigationBarTitleText": "学子影院",
+    "navigationBarTextStyle": "white",
+    "onReachBottomDistance": 30
+  },
+  "tabBar": {
+    "color": "#222",
+    "selectedColor": "#dd403b",
+    "list": [{
+      "text": "首页",
+      "pagePath": "pages/index/index",
+      "iconPath": "/images/index_disable.png",
+      "selectedIconPath": "/images/index_enable.png"
+    },{
+      "text": "影院",
+      "pagePath": "pages/theatre/theatre",
+      "iconPath": "/images/theatre_disable.png",
+      "selectedIconPath": "/images/theatre_enable.png"
+    },{
+      "text": "我的",
+      "pagePath": "pages/me/me",
+      "iconPath": "/images/me_disable.png",
+      "selectedIconPath": "/images/me_enable.png"
+    }]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "将获取当前城市等功能"
+    }
+  },
+
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}

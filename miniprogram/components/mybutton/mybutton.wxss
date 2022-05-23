@@ -1,0 +1,11 @@
+/* components/mybutton/mybutton.wxss */
+.btn{
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: cadetblue;
+    color: white;
+}
+.round{border-radius: 20px;}
+.rect{border-radius: 2px;}
